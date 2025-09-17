@@ -1,40 +1,20 @@
 {
   "name": "01-ts-basics",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "git add --all && git commit -m \"original push\" && git push",
     "dev": "vite",
-    "build": "vite build --base=/01-ts-basics/",
-    "preview": "vite preview"
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.43.0",
-    "@typescript-eslint/parser": "^8.43.0",
-    "eslint": "^9.35.0",
-    "glob": "^11.0.0",
-    "postcss": "^8.4.41",
-    "postcss-sort-media-queries": "^5.2.0",
-    "typescript": "^5.9.2",
-    "vite": "^5.4.6"
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
   },
-  "author": "Samir Sharif <samirsharif6969@gmail.com>",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.12.1",
-    "vite-plugin-full-reload": "^1.2.0",
-    "vite-plugin-html-inject": "^1.1.2"
-  },
-  "description": "Цей проект було створено за допомогою Vite. Для знайомства та налаштування\r додаткових можливостей [звернись до документації](https://vitejs.dev/).",
-  "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Atom1530/01-ts-basics.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Atom1530/01-ts-basics/issues"
-  },
-  "homepage": "https://github.com/Atom1530/01-ts-basics#readme"
+    "axios": "^1.12.1"
+  }
 }

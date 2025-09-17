@@ -1,22 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-
+    "target": "ES2020",
     "strict": true,
     "isolatedModules": true,
     "noEmit": true,
-
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "skipLibCheck": true,
-
-    // желательно убрать эти опции, они мешают:
-    // "types": [],
-    // "declaration": true,
-    // "declarationMap": true,
-    // "noUncheckedSideEffectImports": true
-    // (если она у тебя есть — удали, мы импортируем задачи "ради побочных эффектов")
+    "moduleDetection": "force"
   },
   "include": ["src"]
 }

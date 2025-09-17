@@ -1,3 +1,4 @@
+export {};
 
 const usernames: string[] = ["alice", "bob", "charlie"];
 

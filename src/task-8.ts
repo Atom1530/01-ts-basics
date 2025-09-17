@@ -1,7 +1,7 @@
+
+export { };
+  
 import axios from "axios";
-
-
-
 
 
 interface Post {

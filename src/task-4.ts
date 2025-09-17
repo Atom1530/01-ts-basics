@@ -1,4 +1,5 @@
-
+export { };
+  
 function printUserInfo (name: string, age: number, email?: string) {
   console.log("Name:", name);
   console.log("Age:", age);

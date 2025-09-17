@@ -1,3 +1,5 @@
+
+export {};
 function getMessage(): Promise<string>{
   return new Promise((resolve) => {
     setTimeout(() => {

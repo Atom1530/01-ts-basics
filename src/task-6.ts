@@ -1,4 +1,6 @@
-function getFirstElement<T>( arr: T[]) {
+export {};
+
+function getFirstElement<T>(arr: T[]) {
   return arr[0];
 }
 
